@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.navbar{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(103, 150, 219);
+}
+#twit{
+    background-color: rgb(152, 205, 248);
+}
+#twit a{
+    color: rgb(255, 255, 255);
+}
+#fb{
+    background-color: rgb(152, 205, 248);
+}
+#fb a{
+    color: rgb(255, 255, 255);
+}
+#spotify{
+    background-color: rgb(152, 205, 248);
+}
+#spotify a{
+    color: rgb(255, 255, 255);
+}
+#ttk{
+    background-color: rgb(152, 205, 248);
+}
+#ttk a{
+    color: rgb(255, 255, 255);
+}
+#youtube{
+    background-color: rgb(152, 205, 248);
+}
+#youtube a{
+    color: rgb(255, 255, 255);
+}
+.links{
+    border: 1px solid rgb(255, 255, 255);
+    display: inline;
+    font-family: 'Pacifico';
+    text-transform: uppercase;
+    font-weight: bolder;
+    opacity: .6;
+    transition: 1s;
+}
+.links:hover{
+    opacity: 1;
+    transition: 1s;
+    font-size: larger;
+}
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url('images/pucca.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100ww;
+    height: 750px;
+    padding: 0%;
+    margin: 0%;
+}
+.bannertext{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-family: 'Pacifico';
+    font-size: 30px;
+}
+.bannertext h1{
+    color: rgb(255, 255, 255);
+}
+.bannertext h1 span{
+    color: red;
+}
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0cm;
+    margin-top: 1mm;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(90, 154, 209);
+    border-radius: 10px;
+}
+
